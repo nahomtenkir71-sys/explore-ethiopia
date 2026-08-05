@@ -51,6 +51,34 @@ a:hover {
   color: #228B22;
   text-decoration: underline;
 }
+/* Navigation bar */
+nav {
+  background-color: #006400; /* dark green */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #FFD700; /* gold hover effect */
+}
 
 /* Footer link */
 p a {
