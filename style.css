@@ -1,0 +1,59 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Subheadings */
+h2 {
+  color: #006400;
+  margin-top: 30px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  margin: 15px;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  margin: 15px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #006400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #228B22;
+  text-decoration: underline;
+}
+
+/* Footer link */
+p a {
+  display: inline-block;
+  margin-top: 20px;
+}
